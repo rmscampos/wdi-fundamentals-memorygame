@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var cards = [
 {
 	rank: 'queen',
@@ -20,6 +21,9 @@ var cards = [
 	cardImages: 'images/king-of-diamonds.png'
 }
 ];
+=======
+const cards = ["queen", "queen", "king", "king"];
+>>>>>>> c087a1e82406f5da24d5d92e9e2d67cd09a2c213
 const cardsInPlay = [];
 function checkforMatch () {
 	if (cardsInPlay[0] === cardsInPlay[1]) {
@@ -36,11 +40,19 @@ function flipCard (cardId) {
 } 	else {
 	alert("Sorry, try again.")
 };
+<<<<<<< HEAD
 console.log("User flipped" + cards[cardsId].rank);
 checkForMatch();
 };
 
 cardsInPlay.push(cards[cardId].rank);
+=======
+console.log("User flipped" + [cardID]);
+checkForMatch();
+};
+
+cardsInPlay.push('cards[cardId]');
+>>>>>>> c087a1e82406f5da24d5d92e9e2d67cd09a2c213
 flipCard(0);
 flipCard(2);
 var cardOne = cards[0];
@@ -49,6 +61,9 @@ console.log("User flipped queen");
 var cardTwo = cards[2];
 cardsInPlay.push('cardTwo');
 console.log("User flipped king");
+<<<<<<< HEAD
 console.log('cardImage');
 console.log('suit');
 
+=======
+>>>>>>> c087a1e82406f5da24d5d92e9e2d67cd09a2c213
